@@ -8,14 +8,14 @@ import { paymentLinksDescription } from './resources/payment-links';
 
 export class AdyenCheckoutservice implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'adyen-checkoutservice',
+		displayName: 'Adyen Checkoutservice',
 		name: 'N8nDevAdyenCheckoutservice',
 		icon: { light: 'file:./adyen-checkoutservice.png', dark: 'file:./adyen-checkoutservice.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Adyen Checkout API provides a simple and flexible way to initiate and authorise online payments. You can use the same integration for payments made with cards (including 3D Secure), mobile wallets,..',
-		defaults: { name: 'adyen-checkoutservice' },
+		description: 'Adyen Checkout API enables online payment initiation and authorization across cards, 3D Secure, and mobile wallets.',
+		defaults: { name: 'Adyen Checkoutservice' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

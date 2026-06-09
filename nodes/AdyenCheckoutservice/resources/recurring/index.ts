@@ -27,8 +27,8 @@ export const recurringDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Delete Stored Payment Methods Recurring Id",
-					"value": "Delete Stored Payment Methods Recurring Id",
+					"name": "Delete Stored Payment Methods Recurring ID",
+					"value": "Delete Stored Payment Methods Recurring ID",
 					"action": "Delete a token for stored payment details",
 					"description": "Deletes the token identified in the path. The token can no longer be used with payment requests.",
 					"routing": {
@@ -174,13 +174,13 @@ export const recurringDescription: INodeProperties[] = [
 						"Recurring"
 					],
 					"operation": [
-						"Delete Stored Payment Methods Recurring Id"
+						"Delete Stored Payment Methods Recurring ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Recurring Id",
+			"displayName": "Recurring ID",
 			"name": "recurringId",
 			"required": true,
 			"description": "The unique identifier of the token.",
@@ -192,7 +192,7 @@ export const recurringDescription: INodeProperties[] = [
 						"Recurring"
 					],
 					"operation": [
-						"Delete Stored Payment Methods Recurring Id"
+						"Delete Stored Payment Methods Recurring ID"
 					]
 				}
 			}
@@ -218,7 +218,7 @@ export const recurringDescription: INodeProperties[] = [
 						"Recurring"
 					],
 					"operation": [
-						"Delete Stored Payment Methods Recurring Id"
+						"Delete Stored Payment Methods Recurring ID"
 					]
 				}
 			}
@@ -244,7 +244,7 @@ export const recurringDescription: INodeProperties[] = [
 						"Recurring"
 					],
 					"operation": [
-						"Delete Stored Payment Methods Recurring Id"
+						"Delete Stored Payment Methods Recurring ID"
 					]
 				}
 			}
@@ -269,7 +269,7 @@ export const recurringDescription: INodeProperties[] = [
 						"Recurring"
 					],
 					"operation": [
-						"Delete Stored Payment Methods Recurring Id"
+						"Delete Stored Payment Methods Recurring ID"
 					]
 				}
 			}
@@ -294,7 +294,7 @@ export const recurringDescription: INodeProperties[] = [
 						"Recurring"
 					],
 					"operation": [
-						"Delete Stored Payment Methods Recurring Id"
+						"Delete Stored Payment Methods Recurring ID"
 					]
 				}
 			}

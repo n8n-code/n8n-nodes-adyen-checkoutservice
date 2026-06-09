@@ -27,8 +27,8 @@ export const paymentLinksDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Payment Links Link Id",
-					"value": "Get Payment Links Link Id",
+					"name": "Get Payment Links Link ID",
+					"value": "Get Payment Links Link ID",
 					"action": "Get a payment link",
 					"description": "Retrieves the payment link details using the payment link `id`.",
 					"routing": {
@@ -39,8 +39,8 @@ export const paymentLinksDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Patch Payment Links Link Id",
-					"value": "Patch Payment Links Link Id",
+					"name": "Patch Payment Links Link ID",
+					"value": "Patch Payment Links Link ID",
 					"action": "Update the status of a payment link",
 					"description": "Updates the status of a payment link. Use this endpoint to [force the expiry of a payment link](https://docs.adyen.com/online-payments/pay-by-link#update-payment-link-status).",
 					"routing": {
@@ -664,7 +664,7 @@ export const paymentLinksDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Return Url",
+			"displayName": "Return URL",
 			"name": "returnUrl",
 			"type": "string",
 			"default": "",
@@ -1053,7 +1053,7 @@ export const paymentLinksDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Theme Id",
+			"displayName": "Theme ID",
 			"name": "themeId",
 			"type": "string",
 			"default": "",
@@ -1141,13 +1141,13 @@ export const paymentLinksDescription: INodeProperties[] = [
 						"Payment Links"
 					],
 					"operation": [
-						"Get Payment Links Link Id"
+						"Get Payment Links Link ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Link Id",
+			"displayName": "Link ID",
 			"name": "linkId",
 			"required": true,
 			"description": "Unique identifier of the payment link.",
@@ -1159,7 +1159,7 @@ export const paymentLinksDescription: INodeProperties[] = [
 						"Payment Links"
 					],
 					"operation": [
-						"Get Payment Links Link Id"
+						"Get Payment Links Link ID"
 					]
 				}
 			}
@@ -1184,7 +1184,7 @@ export const paymentLinksDescription: INodeProperties[] = [
 						"Payment Links"
 					],
 					"operation": [
-						"Get Payment Links Link Id"
+						"Get Payment Links Link ID"
 					]
 				}
 			}
@@ -1209,7 +1209,7 @@ export const paymentLinksDescription: INodeProperties[] = [
 						"Payment Links"
 					],
 					"operation": [
-						"Get Payment Links Link Id"
+						"Get Payment Links Link ID"
 					]
 				}
 			}
@@ -1228,13 +1228,13 @@ export const paymentLinksDescription: INodeProperties[] = [
 						"Payment Links"
 					],
 					"operation": [
-						"Patch Payment Links Link Id"
+						"Patch Payment Links Link ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Link Id",
+			"displayName": "Link ID",
 			"name": "linkId",
 			"required": true,
 			"description": "Unique identifier of the payment link.",
@@ -1246,7 +1246,7 @@ export const paymentLinksDescription: INodeProperties[] = [
 						"Payment Links"
 					],
 					"operation": [
-						"Patch Payment Links Link Id"
+						"Patch Payment Links Link ID"
 					]
 				}
 			}
@@ -1278,7 +1278,7 @@ export const paymentLinksDescription: INodeProperties[] = [
 						"Payment Links"
 					],
 					"operation": [
-						"Patch Payment Links Link Id"
+						"Patch Payment Links Link ID"
 					]
 				}
 			}
@@ -1303,7 +1303,7 @@ export const paymentLinksDescription: INodeProperties[] = [
 						"Payment Links"
 					],
 					"operation": [
-						"Patch Payment Links Link Id"
+						"Patch Payment Links Link ID"
 					]
 				}
 			}
@@ -1328,7 +1328,7 @@ export const paymentLinksDescription: INodeProperties[] = [
 						"Payment Links"
 					],
 					"operation": [
-						"Patch Payment Links Link Id"
+						"Patch Payment Links Link ID"
 					]
 				}
 			}

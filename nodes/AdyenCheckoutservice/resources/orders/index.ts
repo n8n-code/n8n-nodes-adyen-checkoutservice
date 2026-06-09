@@ -1153,7 +1153,7 @@ export const ordersDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Session Id",
+			"displayName": "Session ID",
 			"name": "sessionId",
 			"type": "string",
 			"default": "",

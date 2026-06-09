@@ -617,7 +617,7 @@ export const paymentsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Checkout Attempt Id",
+			"displayName": "Checkout Attempt ID",
 			"name": "checkoutAttemptId",
 			"type": "string",
 			"default": "",
@@ -667,7 +667,7 @@ export const paymentsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Conversion Id",
+			"displayName": "Conversion ID",
 			"name": "conversionId",
 			"type": "string",
 			"default": "",
@@ -1634,7 +1634,7 @@ export const paymentsDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Return Url",
+			"displayName": "Return URL",
 			"name": "returnUrl",
 			"type": "string",
 			"default": "",
@@ -2866,7 +2866,7 @@ export const paymentsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Checkout Attempt Id",
+			"displayName": "Checkout Attempt ID",
 			"name": "checkoutAttemptId",
 			"type": "string",
 			"default": "",
@@ -2916,7 +2916,7 @@ export const paymentsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Conversion Id",
+			"displayName": "Conversion ID",
 			"name": "conversionId",
 			"type": "string",
 			"default": "",
@@ -3807,7 +3807,7 @@ export const paymentsDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Return Url",
+			"displayName": "Return URL",
 			"name": "returnUrl",
 			"type": "string",
 			"default": "",
@@ -5493,7 +5493,7 @@ export const paymentsDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Return Url",
+			"displayName": "Return URL",
 			"name": "returnUrl",
 			"type": "string",
 			"default": "",

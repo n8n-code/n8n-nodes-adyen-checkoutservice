@@ -8,7 +8,7 @@ import type {
 export class AdyenCheckoutserviceApi implements ICredentialType {
 	name = 'N8nDevAdyenCheckoutserviceApi';
 
-	displayName = 'adyen-checkoutservice API';
+	displayName = 'Adyen Checkoutservice API';
 
 	icon: Icon = { light: 'file:../nodes/AdyenCheckoutservice/adyen-checkoutservice.png', dark: 'file:../nodes/AdyenCheckoutservice/adyen-checkoutservice.dark.png' };
 
@@ -22,7 +22,7 @@ export class AdyenCheckoutserviceApi implements ICredentialType {
 			default: 'https://checkout-test.adyen.com/v70',
 			required: true,
 			placeholder: 'https://checkout-test.adyen.com/v70',
-			description: 'The base URL of your adyen-checkoutservice API server',
+			description: 'The base URL of your Adyen Checkoutservice API server',
 		},
 		{
 			displayName: 'API Key',

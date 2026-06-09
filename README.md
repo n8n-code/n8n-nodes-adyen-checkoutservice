@@ -53,14 +53,62 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Modifications | Post cancel an authorised payment, Post update an authorised amount, Post cancel an authorised payment, Post capture an authorised payment, Post refund a captured payment, Post refund or cancel a payment |
-| Orders | Post create an order, Post cancel an order, Post get the balance of a gift card |
-| Utility | Post get an apple pay session |
-| Recurring | Get tokens for stored payment details, Delete a token for stored payment details |
-| Payments | Post get the list of brands on the card, Post start a transaction for donations, Post get a list of available payment methods, Post start a transaction, Post submit details for a payment, Post create a payment session |
-| Payment Links | Post create a payment link, Get a payment link, Patch update the status of a payment link |
+<details>
+<summary><b>Modifications</b> (6 operations)</summary>
+
+- Post Cancel an authorised payment
+- Post Update an authorised amount
+- Post Cancel an authorised payment
+- Post Capture an authorised payment
+- Post Refund a captured payment
+- Post Refund or cancel a payment
+
+</details>
+
+<details>
+<summary><b>Orders</b> (3 operations)</summary>
+
+- Post Create an order
+- Post Cancel an order
+- Post Get the balance of a gift card
+
+</details>
+
+<details>
+<summary><b>Utility</b> (1 operations)</summary>
+
+- Post Get an Apple Pay session
+
+</details>
+
+<details>
+<summary><b>Recurring</b> (2 operations)</summary>
+
+- Get tokens for stored payment details
+- Delete a token for stored payment details
+
+</details>
+
+<details>
+<summary><b>Payments</b> (6 operations)</summary>
+
+- Post Get the list of brands on the card
+- Post Start a transaction for donations
+- Post Get a list of available payment methods
+- Post Start a transaction
+- Post Submit details for a payment
+- Post Create a payment session
+
+</details>
+
+<details>
+<summary><b>Payment Links</b> (3 operations)</summary>
+
+- Post Create a payment link
+- Get a payment link
+- Patch Update the status of a payment link
+
+</details>
 
 ---
 
