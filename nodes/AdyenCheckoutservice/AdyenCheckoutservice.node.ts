@@ -7,32 +7,32 @@ import { paymentsDescription } from './resources/payments';
 import { paymentLinksDescription } from './resources/payment-links';
 
 export class AdyenCheckoutservice implements INodeType {
-	description: INodeTypeDescription = {
-		displayName: 'Adyen Checkoutservice',
-		name: 'N8nDevAdyenCheckoutservice',
-		icon: { light: 'file:./adyen-checkoutservice.png', dark: 'file:./adyen-checkoutservice.dark.png' },
-		group: ['input'],
-		version: 1,
-		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
-		description: 'Adyen Checkout API enables online payment initiation and authorization across cards, 3D Secure, and mobile wallets.',
-		defaults: { name: 'Adyen Checkoutservice' },
-		usableAsTool: true,
-		inputs: [NodeConnectionTypes.Main],
-		outputs: [NodeConnectionTypes.Main],
-		credentials: [
-			{
-				name: 'N8nDevAdyenCheckoutserviceApi',
-				required: true,
-			},
-		],
-		requestDefaults: {
-			baseURL: '={{\$credentials.url}}',
-			headers: {
-				Accept: 'application/json',
-				'Content-Type': 'application/json',
-			},
-		},
-		properties: [
+        description: INodeTypeDescription = {
+                displayName: 'Adyen Checkoutservice',
+                name: 'N8nDevAdyenCheckoutservice',
+                icon: { light: 'file:./adyen-checkoutservice.png', dark: 'file:./adyen-checkoutservice.dark.png' },
+                group: ['input'],
+                version: 1,
+                subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
+                description: 'Adyen Checkout API enables online payment initiation and authorization across cards, 3D Secure, and mobile wallets.',
+                defaults: { name: 'Adyen Checkoutservice' },
+                usableAsTool: true,
+                inputs: [NodeConnectionTypes.Main],
+                outputs: [NodeConnectionTypes.Main],
+                credentials: [
+                        {
+                                name: 'N8nDevAdyenCheckoutserviceApi',
+                                required: true,
+                        },
+                ],
+                requestDefaults: {
+                        baseURL: '={{\$credentials.url}}',
+                        headers: {
+                                Accept: 'application/json',
+                                'Content-Type': 'application/json',
+                        },
+                },
+                properties: [
 		{
 			"displayName": "Resource",
 			"name": "resource",
@@ -78,6 +78,6 @@ export class AdyenCheckoutservice implements INodeType {
 		...recurringDescription,
 		...paymentsDescription,
 		...paymentLinksDescription
-		],
-	};
+                ],
+        };
 }
